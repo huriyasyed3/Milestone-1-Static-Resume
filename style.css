@@ -17,6 +17,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: row;
     max-width: 1200px;
     margin: 20px auto;
     background-color: #fff;
@@ -95,6 +96,7 @@ h1 {
     height: 10px;
     border-radius: 5px;
     margin-top: 5px;
+    width: 100%; /* Ensure the progress bar takes up full width */
 }
 
 .progress {
@@ -171,10 +173,12 @@ h2:not(.collapsed)::after {
 }
 
 /* Media queries for responsiveness */
+
+/* For tablets and smaller laptops */
 @media (max-width: 1024px) {
-    /* Adjust container for tablet */
     .container {
         flex-direction: column;
+        margin: 10px;
     }
 
     .sidebar, .main-content {
@@ -199,22 +203,8 @@ h2:not(.collapsed)::after {
     }
 }
 
-@media (max-width: 768px) {
-    /* Mobile adjustments */
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar, .main-content {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .profile-picture {
-        width: 100px;
-        height: 100px;
-    }
-
+/* For mobile devices */
+@media (max-width: 600px) {
     h1 {
         font-size: 1.4em;
     }
@@ -229,6 +219,6 @@ h2:not(.collapsed)::after {
 
     .skills-list li {
         padding: 4px 8px;
-        margin: 3px;
+        font-size: 0.9em;
     }
 }
