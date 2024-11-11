@@ -98,7 +98,7 @@ h1 {
     margin-top: 5px;
     width: 100%; /* Ensure the progress bar takes up full width */
 }
-
+ 
 .progress {
     background-color: var(--primary-color);
     height: 100%;
@@ -172,10 +172,10 @@ h2:not(.collapsed)::after {
     margin-left: 5px;
 }
 
-/* Media queries for responsiveness */
+/* Media queries for responsiveness 
 
-/* For tablets and smaller laptops */
-@media (max-width: 1024px) {
+ /* For tablets and smaller laptops 
+  @media (max-width: 1024px) {
     .container {
         flex-direction: column;
         margin: 10px;
@@ -183,11 +183,12 @@ h2:not(.collapsed)::after {
 
     .sidebar, .main-content {
         width: 100%;
-    }
+    } 
 
     .profile-picture {
         width: 120px;
         height: 120px;
+        
     }
 
     h1 {
@@ -201,10 +202,10 @@ h2:not(.collapsed)::after {
     h3 {
         font-size: 1.2em;
     }
-}
+} */
 
 /* For mobile devices */
-@media (max-width: 600px) {
+ @media (max-width: 600px) {
     h1 {
         font-size: 1.4em;
     }
@@ -221,4 +222,6 @@ h2:not(.collapsed)::after {
         padding: 4px 8px;
         font-size: 0.9em;
     }
-}
+} 
+
+
