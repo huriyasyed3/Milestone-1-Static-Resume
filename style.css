@@ -96,7 +96,7 @@ h1 {
     height: 10px;
     border-radius: 5px;
     margin-top: 5px;
-    width: 100%; /* Ensure the progress bar takes up full width */
+    width: 85%; /* Ensure the progress bar takes up full width */
 }
  
 .progress {
