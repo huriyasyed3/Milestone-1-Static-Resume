@@ -172,9 +172,9 @@ h2:not(.collapsed)::after {
     margin-left: 5px;
 }
 
-/* Media queries for responsiveness 
+ /* Media queries for responsiveness  */
 
- /* For tablets and smaller laptops 
+  /* For tablets and smaller laptops  */
   @media (max-width: 1024px) {
     .container {
         flex-direction: column;
@@ -202,7 +202,7 @@ h2:not(.collapsed)::after {
     h3 {
         font-size: 1.2em;
     }
-} */
+} 
 
 /* For mobile devices */
  @media (max-width: 600px) {
